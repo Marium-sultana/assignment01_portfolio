@@ -1,0 +1,158 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-container{
+display: flex;
+margin-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+}
+h3{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.orange-color{
+    color: orange;
+}
+.h1-color{
+    color: #34495e;
+}
+
+.silver-color{
+    color: silver;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 10%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#e74c3c, #e67e22);
+    color: white;
+    font-weight: 700;
+    padding: 15px 40px;
+    margin-top: 50px;
+    
+    border-radius: 20px;
+}
+.about-me{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.personal-img img{
+    width: 40%;
+    padding-left: 20%
+}
+.gray-color{
+    color: gray;
+}
+.center{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.recipie-item{
+    height: 618px;
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 30spx;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px grey;
+    
+    
+}
+.recipie-item img{
+    width: 80%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 20%;
+    
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+.recipie-item p{
+    margin-left: 10%;
+}
+.subscribe{
+    text-align: center;
+    height: 60%;
+    width: 40%;
+    padding-top: 10px;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background-color: #3c6382;
+    color: white;
+}
+.subscribe input[type=email]{
+    height: 30px;
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.subscribe button[type=submit]{
+    background-color: #e58e26;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.subscribe button[type=submit]:hover {
+    background-color: #fa983a;
+  }
+  .subscribe-color{
+      color: #f6b93b;
+  }
+  .social-area{
+    height: 130px;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    background-image: linear-gradient(#f6b93b,#e55039,#eb2f06);
+  }
+  .social-area p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 50%;
+    color: white;
+  }
+  .social-account img{
+    width: 56px;
+    height: 56px;
+    margin-left: 20px;
+    margin-top: 28px;
+  }
+footer{
+    left: 0;
+    height: 20px;
+    width: 100%;
+    
+    text-align: center;
+    
+}
+.foot{
+    height: 358px;
+    background-color: #2f3640;
+    padding-top: 10px;
+}
+.foot p{
+    color: white;
+}
